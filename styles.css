@@ -1,0 +1,222 @@
+*{
+    margin: auto;
+}
+
+body{
+
+    background-color: white;
+
+
+}
+
+header{
+
+    height: 10vh;
+    background-color: #000000;
+
+
+}
+
+.topPic{
+
+    height: 100vh;
+    background-image: url('./images/computer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nameCircle {
+
+    border-radius: 100%;
+    width: 25vw;
+    height: 25vw;
+    background-color: #95B7EA;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+
+    background-color: #95B7EA;
+    height: 105vh;
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.content h1 {
+
+    font-size: 4em;
+
+}
+
+.content h2 {
+    
+    font-size: 4em;
+    
+}
+
+.content h3 {
+    
+    font-size: 4em;
+    
+}
+
+.content i {
+    
+    color: black;
+    font-size: 6em;
+
+}
+
+.content i:hover {
+    
+    color: white;
+
+}
+
+.left25 {
+
+    border-right: 1px solid black;
+    width: 20vw;
+    height: 105vh;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.mid50 {
+
+    width: 60vw;
+    height: 105vh;
+    background-color: black;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    color: #95B7EA;
+
+}
+
+.right25 {
+
+    border-left: 1px solid black;
+    width: 20vw;
+    height: 105vh;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.midPic {
+
+    height: 105vh;
+    background-image: url('./images/birds.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact {
+
+    width: 40vw;
+    margin: 5vw 10vw 10vw 1vw;
+    text-align: center;
+
+}
+
+.contact h1 {
+
+    font-size: 4em;
+
+}
+
+.contact p {
+    
+    font-size: 2em;
+    
+}
+
+.contact a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.contact a:hover {
+    
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.contentPic {
+
+    background-color: #173765;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photoCircle {
+    
+    border: 1px solid #524745;
+    border-radius: 100%;
+    width: 25vw;
+    height: 25vw;
+    background-image: url('./images/me.jpg');
+    background-size: cover;
+    opacity: 0.5;
+
+}
+
+.tech{
+
+    width: 20vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+i {
+
+    font-size: 7rem;
+
+}
+
+footer {
+
+    height: 10vh;
+    background-color: #000000;
+
+}
+
