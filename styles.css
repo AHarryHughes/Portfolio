@@ -190,8 +190,9 @@ header{
     border-radius: 100%;
     width: 25vw;
     height: 25vw;
-    background-image: url('./images/me.jpg');
+    background-image: url('./images/me.png');
     background-size: cover;
+    background-position: center;
     opacity: 0.5;
 
 }
@@ -220,3 +221,38 @@ footer {
 
 }
 
+.projects {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.projects h4 {
+
+    font-size: 2em;
+
+}
+
+.movieApp {
+
+    background-image: url('./images/movieApp.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 40vh;
+    border: 10px solid black;
+
+}
+
+.gameApp {
+
+    background-image: url('./images/gameApp.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 40vh;
+    border: 10px solid black;
+    
+}
